@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-var score = 89
+var score = 90
 
 if (score  <= 100 && score > 90) {
     console.log("A")
