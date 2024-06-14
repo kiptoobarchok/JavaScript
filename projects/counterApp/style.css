@@ -1,0 +1,48 @@
+/* * {
+    border: 2px solid red
+} */
+
+h1{
+    text-align: center;
+}
+
+#increment {
+    display: block;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    background: darkgrey;
+    margin-bottom: 10px;
+}
+
+#save {
+    display: block;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    background: green;
+    margin-bottom: 10px;
+}
+
+
+#save:hover, #increment:hover{
+    opacity: 50%;
+}
+
+#count {
+    text-align: center;
+}
+
+.par{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
