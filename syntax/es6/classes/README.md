@@ -45,3 +45,7 @@ myCar.drive(); // Output: Driving a red Toyota
 ```
 
 - each _element_ can either be a field(property) or a method
+- in the above example the `color` and `model` fields(properties) and the `drive()` method are all class elements
+
+**_Attributes_** : essentially variables that store values or states for an object, can
+ be set in the constructor`(instance attribute)` or directly within the class`(class attribute)`
