@@ -49,3 +49,26 @@ myCar.drive(); // Output: Driving a red Toyota
 
 **_Attributes_** : essentially variables that store values or states for an object, can
  be set in the constructor`(instance attribute)` or directly within the class`(class attribute)`
+
+**_Methods_** : functions defined within a class
+
+- Operate on instances of that class
+
+**_Instances_** : an object created from a class
+- To create an instance, you use the new keyword, followed by the class name
+
+creating a class in es6:
+```
+//class declaration
+
+class myClassName {
+    //body
+}
+
+//class expression
+//can either be anonymous or have a class name
+
+const mySecClass = class myShape {
+
+}
+```
