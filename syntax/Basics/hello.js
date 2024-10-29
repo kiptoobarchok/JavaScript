@@ -34,3 +34,4 @@ let names = ['abel', 'caleb', 'peter']
 
 let pushed = names.push('kevin')
 console.log(pushed)//returns length
+console.log(names)
