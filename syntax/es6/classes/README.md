@@ -67,8 +67,46 @@ class myClassName {
 
 //class expression
 //can either be anonymous or have a class name
+//must have (;) at the end
 
 const mySecClass = class myShape {
 
-}
+};
 ```
+
+## Getters and setters
+- Allow control access to an objects properties
+- They are special methods that allow to execute code when properties are accessed or modified
+
+- Defined using `get` and `set` keywords
+- allow encapsulation of data
+
+### (a)Getter
+- is a method that retrieves a property value
+- acts like a property but exceutes code when accessed
+
+### (b)Setter
+
+- method that modifies (or "sets") a property value
+- allows for control of assignment of values ie, validation
+
+# Methods
+- Methods are special functions inside classes
+- methods cannot be constructors (will throw TypeError ...)
+
+### Static methods
+- also static functions
+- functions defined on class not on instances of class
+- useful for utility functions
+- declared with `static` keyword
+- called on class rather than on the instance
+- ie, 
+    ```
+    // can only be accessed through the class itself
+    MyClass.MyStaticMethod()
+    ```
+
+- cannot access directly instance properties( ie , `this` refers to the class itself)
+
+- often used for **_utility functions_** thar dont need instance specific data ie, claculations, conversions or helper functions
+
